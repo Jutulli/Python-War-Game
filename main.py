@@ -12,7 +12,7 @@ def start_game():
     p1 = [deck[:26], []]
     p2 = [deck[26:52], []]
 
-    # Optional referencial dialogue just for fun
+    # Optional referencial dialogue just for fun, pretend this never existed if you don't get the reference
     optional_dialogue = input("- Greetings professor Falken, shall we play a game? (Yes or No)")
     if optional_dialogue == "No":
         print("Goodbye")
